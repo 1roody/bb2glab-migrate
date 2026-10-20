@@ -1,0 +1,16 @@
+# Credenciais
+.env
+
+# Gerados a cada execução (logs com horário e saída dos comandos; resultado por repositório;
+# URLs dos projetos já migrados)
+logs/
+*.log
+results/
+repos-ja-no-gitlab.txt
+
+# Binários
+/bb2gl
+/dist/
+
+# Others
+repos.txt
