@@ -1,0 +1,17 @@
+# Copie para repos.txt e edite (cp repos.txt.example repos.txt). O repos.txt NÃO é commitado.
+# Uma linha por repositório. '#' inicia comentário. Os nomes abaixo são fictícios.
+
+# Só a origem (workspace/repo): destino = <GITLAB_DEST_PATH>/<repo>
+acme-workspace/loja-api
+acme-workspace/loja-frontend
+acme-workspace/servico-pagamentos
+
+# Origem + destino explícito (ignora GITLAB_DEST_PATH)
+acme-workspace/app-mobile       acme-group/mobile/app-mobile
+acme-workspace/infra-terraform  acme-group/plataforma/infra-terraform
+
+# Um "->" entre os dois campos também é aceito
+acme-workspace/legado-erp -> acme-group/legado/erp
+
+# Linha comentada: não é migrada
+# acme-workspace/prototipo-antigo
